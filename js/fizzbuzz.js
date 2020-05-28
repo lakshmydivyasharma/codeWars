@@ -1,3 +1,4 @@
+// this prints into an array stored in a variable 
 let fizzbuzz = function (){
 
   let arr = []
@@ -17,3 +18,19 @@ let fizzbuzz = function (){
 }
 
 console.log(fizzbuzz())
+
+
+
+
+// this prints one number:
+
+function printFizzBuzz(n) {
+	if(n % 3 === 0){   
+	Return “Fizz”
+       }	if(n % 5 === 0){
+	Return “Buzz”
+    }      if(n % 15 === 0){
+	Return “FizzBuzz”   }
+}
+
+Return printFizzbuzz(100) 
